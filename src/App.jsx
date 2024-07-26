@@ -1,11 +1,18 @@
 
 import fotoMarian from './assets/img/marian.png'
 import fotoMati from './assets/img/mati.png'
-import { Tabla } from './tabla'
+import { Popup } from './popup'
 import './App.css'
+import { useState } from 'react'
 
 function App() {
 
+const [botonMes, setMes] = useState (false)
+
+
+const botonEntrar = () => {
+  setMes (!botonMes)
+}
 
   return (
     <>
@@ -20,19 +27,14 @@ function App() {
         
 
       </div>
+      <button onClick={botonEntrar}>julio</button>
+      <Popup 
+      abierto = {botonMes}
+      cerrar = {botonEntrar}/>
       
-      <section className='mes'>
-        <div className='text'>
-            <h2>Nombre del mes</h2>
-          <header className='popup-mes'>
-            <Tabla />
-          </header>
-          <footer>
-            <button className='text'>Salir</button>
-          </footer>
-         </div>
-      </section>
+      
 
+     
       
 
       
