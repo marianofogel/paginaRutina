@@ -1,38 +1,38 @@
-body{
-    background-color: rgb(50, 57, 65);
+body {
+  background-color: rgb(50, 57, 65);
 }
 
-.foto-marian{
-    cursor:pointer;
-    float: left;
-    
+.foto-marian {
+  cursor: pointer;
+  float: left;
+
 
 }
 
-.foto-mati{
-    cursor:pointer;
-    float: right;
-    
+.foto-mati {
+  cursor: pointer;
+  float: right;
+
 }
 
 
-h1{
-    color: rgb(196, 195, 146);
-    text-align: center;
-    font-size: 75px;
-    font-family: monospace;
-    float: auto;
-    border-color: red;
-    margin: 0;
-    padding: 0;
-    
-    
+h1 {
+  color: rgb(196, 195, 146);
+  text-align: center;
+  font-size: 75px;
+  font-family: monospace;
+  float: auto;
+  border-color: red;
+  margin: 0;
+  padding: 0;
+
+
 }
 
-.iniciodepagina{
-    display: flex;
-    align-items:center;
-    gap: 17%;
+.iniciodepagina {
+  display: flex;
+  align-items: center;
+  gap: 17%;
 }
 
 .mes {
@@ -44,11 +44,11 @@ h1{
   display: grid;
   place-items: center;
   background-color: rgba(0, 0, 0, 0.7);
-  
+
 }
 
-.mes .popup-mes{
- background: #111;
+.mes .popup-mes {
+  background: #111;
   height: 200px;
   width: 350px;
   border: 2px solid #eee;
@@ -60,7 +60,7 @@ h1{
   gap: 20px;
 }
 
-.mes .text{
+.mes .text {
   text-align: center;
   color: red;
   margin-top: 3%;

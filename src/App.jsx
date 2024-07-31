@@ -7,12 +7,12 @@ import { useState } from 'react'
 
 function App() {
 
-const [botonMes, setMes] = useState (false)
+  const [botonMes, setMes] = useState(false)
 
 
-const botonEntrar = () => {
-  setMes (!botonMes)
-}
+  const botonEntrar = () => {
+    setMes(!botonMes)
+  }
 
   return (
     <>
@@ -21,23 +21,22 @@ const botonEntrar = () => {
         <img src={fotoMati} alt="FOTO DE MATI" className='foto-mati' width={230} height={300} />
         <h1>Pagina de prueba</h1>
 
-        
+
         <img src={fotoMarian} alt="FOTO DE MARIAN" className='foto-marian' width={230} height={300} />
-        
-        
+
+
 
       </div>
       <button onClick={botonEntrar}>julio</button>
-      <Popup 
-      abierto = {botonMes}
-      cerrar = {botonEntrar}/>
-      
-      
+      <Popup
+        abierto={botonMes}
+        cerrar={botonEntrar} />
 
-     
-      
 
-      
+
+
+
+
     </>
   )
 }
